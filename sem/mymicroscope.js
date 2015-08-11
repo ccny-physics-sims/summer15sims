@@ -15,7 +15,7 @@ function setup() {
   onoff.mouseClicked(turnonoff);
   onoff.position(120,330);
   changesample = createButton("Change Sample");
-  chagesample.addClass("sim-button");
+  changesample.addClass("sim-button");
   changesample.mouseClicked(changethesample);
   changesample.position(500,790)
   thesamples[0]= loadImage("2keV_50kx_002__1.jpg");

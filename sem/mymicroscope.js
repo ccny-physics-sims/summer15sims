@@ -13,7 +13,7 @@ function setup() {
   onoff = createButton("turn on");
   onoff.addClass("sim-button");
   onoff.mouseClicked(turnonoff);
-  onoff.position(100,330);
+  onoff.position(120,330);
   changesample = createButton("Change Sample");
   changesample.addClass("sim-button");
   changesample.mouseClicked(changethesample);

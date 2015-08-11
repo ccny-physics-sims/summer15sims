@@ -1,3 +1,7 @@
+body {
+  padding: 10px;
+}
+
 input[type=range] {
   -webkit-appearance: none;
   /*width: 100%;*/
